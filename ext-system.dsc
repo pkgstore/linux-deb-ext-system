@@ -8,8 +8,8 @@ Uploaders: Package Store <kitsune.solar@gmail.com>
 Homepage: https://pkgstore.gitlab.io
 Vcs-Browser: https://github.com/pkgstore/linux-deb-ext-system
 Vcs-Git: https://github.com/pkgstore/linux-deb-ext-system.git
-Standards-Version: 4.4.1
-Build-Depends: debhelper (>= 12), debhelper-compat (= 12)
+Standards-Version: 4.5.1
+Build-Depends: debhelper (>= 13), debhelper-compat (= 13)
 Package-List:
  ext-system deb admin optional arch=any
 DEBTRANSFORM-RELEASE: 1
