@@ -1,0 +1,22 @@
+name: "Debian: Build Package"
+
+on:
+  - push
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    name: "Build"
+    steps:
+      - uses: pkgstore/github-action-build-deb@main
+        with:
+          git_repo_src: "https://github.com/${{ github.repository }}.git"
+          git_repo_dst: "https://github.com/deb-store/ext-zsh.git"
+          git_user: "${{ secrets.GIT_BOT_NAME }}"
+          git_email: "${{ secrets.GIT_BOT_EMAIL }}"
+          git_token: "${{ secrets.GIT_BOT_TOKEN }}"
+          obs_user: "${{ secrets.OBS_USER }}"
+          obs_password: "${{ secrets.OBS_PASSWORD }}"
+          obs_token: "${{ secrets.OBS_TOKEN }}"
+          obs_project: "home:pkgstore:deb-ext"
+          obs_package: "ext-zsh"
