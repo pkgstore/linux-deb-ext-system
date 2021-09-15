@@ -15,7 +15,6 @@ Package: ext-system
 Architecture: all
 Depends: bash
         ,zsh
-        ,${shlibs:Depends}
         ,${misc:Depends}
 Description: META-package for configure system
  META-package for configure system.
