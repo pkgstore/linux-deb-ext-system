@@ -9,7 +9,7 @@
   </service>
   <service name="tar" mode="buildtime"/>
   <service name="recompress" mode="buildtime">
-    <param name="compression">xz</param>
     <param name="file">*.tar</param>
+    <param name="compression">xz</param>
   </service>
 </services>
