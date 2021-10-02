@@ -1,3 +1,9 @@
+ext-system (1.0.0-2) unstable; urgency=medium
+
+  * ADD: "contrib-non-free" Debian repository.
+
+ -- Package Store <kitsune.solar@gmail.com>  Sat, 02 Oct 2021 21:00:00 +0300
+
 ext-system (1.0.0-1) unstable; urgency=medium
 
   * Initial Release

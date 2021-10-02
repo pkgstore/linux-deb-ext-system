@@ -1,1 +1,2 @@
-*.conf etc/sysctl.d
+sysctl.d/*.conf etc/sysctl.d
+sources.list.d/*.list /etc/apt/sources.list.d
