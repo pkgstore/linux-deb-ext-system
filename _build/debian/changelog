@@ -1,3 +1,9 @@
+ext-system (1.0.0-6) unstable; urgency=medium
+
+  * UPD: Change mirrors to "mirror.yandex.ru".
+
+ -- Package Store <kitsune.solar@gmail.com>  Mon, 25 Oct 2021 12:40:00 +0000
+
 ext-system (1.0.0-5) unstable; urgency=medium
 
   * UPD: Change mirrors to "ftp2.de.debian.org".
