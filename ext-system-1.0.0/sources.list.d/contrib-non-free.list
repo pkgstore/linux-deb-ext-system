@@ -1,8 +1,8 @@
-deb http://mirror.dogado.de/debian bullseye contrib non-free
-deb-src http://mirror.dogado.de/debian bullseye contrib non-free
+deb http://ftp.de.debian.org/debian bullseye contrib non-free
+deb-src http://ftp.de.debian.org/debian bullseye contrib non-free
 
-deb http://mirror.dogado.de/debian-security/ bullseye-security contrib non-free
-deb-src http://mirror.dogado.de/debian-security/ bullseye-security contrib non-free
+deb http://ftp.de.debian.org/debian-security/ bullseye-security contrib non-free
+deb-src http://ftp.de.debian.org/debian-security/ bullseye-security contrib non-free
 
-deb http://mirror.dogado.de/debian bullseye-updates contrib non-free
-deb-src http://mirror.dogado.de/debian bullseye-updates contrib non-free
+deb http://ftp.de.debian.org/debian bullseye-updates contrib non-free
+deb-src http://ftp.de.debian.org/debian bullseye-updates contrib non-free
