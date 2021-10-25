@@ -1,8 +1,14 @@
+ext-system (1.0.0-5) unstable; urgency=medium
+
+  * UPD: Change mirrors to "ftp2.de.debian.org".
+
+ -- Package Store <kitsune.solar@gmail.com>  Mon, 25 Oct 2021 12:30:00 +0000
+
 ext-system (1.0.0-4) unstable; urgency=medium
 
   * UPD: Change mirrors to "ftp.de.debian.org".
 
- -- Package Store <kitsune.solar@gmail.com>  Thu, 21 Oct 2021 12:00:00 +0000
+ -- Package Store <kitsune.solar@gmail.com>  Mon, 25 Oct 2021 12:00:00 +0000
 
 ext-system (1.0.0-3) unstable; urgency=medium
 
