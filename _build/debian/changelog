@@ -1,35 +1,41 @@
+ext-system (1.0.1-1) unstable; urgency=medium
+
+  * NEW: "APT_AUTO" script.
+
+ -- Package Store <kitsune.solar@gmail.com>  Thu, 25 Nov 2021 16:50:00 +0300
+
 ext-system (1.0.0-6) unstable; urgency=medium
 
   * UPD: Change mirrors to "mirror.yandex.ru".
 
- -- Package Store <kitsune.solar@gmail.com>  Mon, 25 Oct 2021 12:40:00 +0000
+ -- Package Store <kitsune.solar@gmail.com>  Mon, 25 Oct 2021 12:40:00 +0300
 
 ext-system (1.0.0-5) unstable; urgency=medium
 
   * UPD: Change mirrors to "ftp2.de.debian.org".
 
- -- Package Store <kitsune.solar@gmail.com>  Mon, 25 Oct 2021 12:30:00 +0000
+ -- Package Store <kitsune.solar@gmail.com>  Mon, 25 Oct 2021 12:30:00 +0300
 
 ext-system (1.0.0-4) unstable; urgency=medium
 
   * UPD: Change mirrors to "ftp.de.debian.org".
 
- -- Package Store <kitsune.solar@gmail.com>  Mon, 25 Oct 2021 12:00:00 +0000
+ -- Package Store <kitsune.solar@gmail.com>  Mon, 25 Oct 2021 12:00:00 +0300
 
 ext-system (1.0.0-3) unstable; urgency=medium
 
   * ADD: "backports" Debian repository.
 
- -- Package Store <kitsune.solar@gmail.com>  Thu, 21 Oct 2021 12:00:00 +0000
+ -- Package Store <kitsune.solar@gmail.com>  Thu, 21 Oct 2021 12:00:00 +0300
 
 ext-system (1.0.0-2) unstable; urgency=medium
 
   * ADD: "contrib-non-free" Debian repository.
 
- -- Package Store <kitsune.solar@gmail.com>  Sat, 02 Oct 2021 21:00:00 +0000
+ -- Package Store <kitsune.solar@gmail.com>  Sat, 02 Oct 2021 21:00:00 +0300
 
 ext-system (1.0.0-1) unstable; urgency=medium
 
   * Initial Release
 
- -- Package Store <kitsune.solar@gmail.com>  Tue, 12 Nov 2019 14:00:00 +0000
+ -- Package Store <kitsune.solar@gmail.com>  Tue, 12 Nov 2019 14:00:00 +0300

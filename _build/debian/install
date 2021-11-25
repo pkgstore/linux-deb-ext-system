@@ -1,2 +1,4 @@
 sysctl.d/*.conf etc/sysctl.d
 sources.list.d/*.list /etc/apt/sources.list.d
+cron.d/* /etc/cron.d
+*.sh usr/bin
