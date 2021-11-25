@@ -32,5 +32,5 @@ upgrade() {
   ${apt} full-upgrade --quiet --yes >> "${dir}/${ts}.log"
 }
 
-init "$@"
+init
 exit 0
