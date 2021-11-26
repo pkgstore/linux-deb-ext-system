@@ -13,8 +13,12 @@ init() {
   upgrade
 }
 
-_date() {
-  ${date} -u '+%Y-%m-%d'
+_date_year() {
+  ${date} -u '+%Y'
+}
+
+_date_month() {
+  ${date} -u '+%m'
 }
 
 _timestamp() {
@@ -22,7 +26,7 @@ _timestamp() {
 }
 
 upgrade() {
-  dt="$( _date )"
+  dt="$( _date_year )/$( _date_month )"
   ts="$( _timestamp )"
   dir="/var/log/apt.auto/${dt}"
 

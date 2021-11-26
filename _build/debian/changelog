@@ -1,3 +1,9 @@
+ext-system (1.0.1-2) unstable; urgency=medium
+
+  * UPD: "APT_AUTO" script.
+
+ -- Package Store <kitsune.solar@gmail.com>  Fri, 26 Nov 2021 13:00:00 +0300
+
 ext-system (1.0.1-1) unstable; urgency=medium
 
   * NEW: "APT_AUTO" script.
