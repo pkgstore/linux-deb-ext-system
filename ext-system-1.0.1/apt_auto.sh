@@ -3,6 +3,7 @@
 (( EUID != 0 )) &&
   { echo >&2 "This script should be run as root!"; exit 1; }
 
+# Init.
 init() {
   # Apps.
   apt="$( command -v apt )"
@@ -13,27 +14,30 @@ init() {
   upgrade
 }
 
-_date_year() {
-  ${date} -u '+%Y'
-}
-
-_date_month() {
-  ${date} -u '+%m'
-}
-
-_timestamp() {
-  ${date} +%s%N | cut -b1-13
-}
-
+# Upgrade OS.
 upgrade() {
-  dt="$( _date_year )/$( _date_month )"
   ts="$( _timestamp )"
-  dir="/var/log/apt.auto/${dt}"
+  dir="/var/log/apt.auto/$( _year )/$( _month )"
 
   [[ -d "${dir}" ]] || ${mkdir} -p "${dir}"
 
   ${apt} update --quiet --yes >> "${dir}/${ts}.log"
   ${apt} full-upgrade --quiet --yes >> "${dir}/${ts}.log"
+}
+
+# Year.
+_year() {
+  ${date} -u '+%Y'
+}
+
+# Month.
+_month() {
+  ${date} -u '+%m'
+}
+
+# Timestamp.
+_timestamp() {
+  ${date} +%s%N | cut -b1-13
 }
 
 init
