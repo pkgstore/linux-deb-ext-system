@@ -1,3 +1,9 @@
+ext-system (1.0.1-7) unstable; urgency=medium
+
+  * UPD: Revert "contrib-non-free" Debian repository.
+
+ -- Package Store <mail@z17.dev>  Wed, 23 Mar 2022 23:00:00 +0300
+
 ext-system (1.0.1-6) unstable; urgency=medium
 
   * UPD: "contrib-non-free" Debian repository.

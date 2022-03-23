@@ -1,8 +1,8 @@
-# deb http://mirror.yandex.ru/debian bullseye contrib non-free
-# deb-src http://mirror.yandex.ru/debian bullseye contrib non-free
+deb http://mirror.yandex.ru/debian bullseye contrib non-free
+deb-src http://mirror.yandex.ru/debian bullseye contrib non-free
 
-# deb http://mirror.yandex.ru/debian-security/ bullseye-security contrib non-free
-# deb-src http://mirror.yandex.ru/debian-security/ bullseye-security contrib non-free
+deb http://mirror.yandex.ru/debian-security/ bullseye-security contrib non-free
+deb-src http://mirror.yandex.ru/debian-security/ bullseye-security contrib non-free
 
-# deb http://mirror.yandex.ru/debian bullseye-updates contrib non-free
-# deb-src http://mirror.yandex.ru/debian bullseye-updates contrib non-free
+deb http://mirror.yandex.ru/debian bullseye-updates contrib non-free
+deb-src http://mirror.yandex.ru/debian bullseye-updates contrib non-free
