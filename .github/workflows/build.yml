@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     name: "Build"
     steps:
-      - uses: pkgstore/github-action-build-deb@main
+      - uses: pkgstore/github-action-deb-build@main
         with:
           git_repo_src: "https://github.com/${{ github.repository }}.git"
           git_repo_dst: "https://github.com/deb-store/ext-system.git"
