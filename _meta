@@ -1,4 +1,4 @@
-<package name="ext-system" project="home:pkgstore:deb-ext">
+<package name="ext-system" project="home:pkgstore:deb:ext">
   <title/>
   <description/>
 </package>
